@@ -1,0 +1,14 @@
+# Ignore API keys and environment variables
+.env
+
+# Ignore generated RAG files
+rag_chunks.pkl
+rag_index.faiss
+
+# Ignore Python specific files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment folders
+venv/
+.venv/
